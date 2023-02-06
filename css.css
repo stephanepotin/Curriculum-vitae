@@ -1,0 +1,30 @@
+#titre
+{
+     display: grid;
+     align-items: center;
+     width: 100%;
+     background-color: aquamarine;
+     height: 400px;
+     border: 10px 0 0 0 black;
+}
+.name
+{
+     color: red;
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 1;
+     grid-column-end: 9;
+}
+.presentation
+{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 9;
+     grid-column-end: 12;
+     line-height: 50px ;
+     height: 100%;
+ 
+}
